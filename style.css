@@ -38,13 +38,13 @@ body {
 }
 #city {
     color: #FFF;
-    font-size: 45px;
+    font-size: 30px;
     font-weight: bold;
     margin: 20px;
 }
 #date {
     color: #FFF;
-    font-size: 24px;
+    font-size: 20px;
    text-shadow: 
       -0   -1px 2px #11577C,
       0   -1px 2px #11577C,
@@ -70,24 +70,24 @@ body {
 }
 #temperature {
     color: #FFF;
-    font-size: 90px;
+    font-size: 80px;
     font-weight: bold;
     margin: 0;
 }
 #feelsLike {
     color: #FFF;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
 }
 #conditions {
     color: #FFF;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: bold;
     font-style: italic;
 }
 #variation {
     color: #FFF;
-    font-size: 26px;
+    font-size: 22px;
     font-weight: bold;
 }
   
@@ -125,8 +125,14 @@ body {
     font-size: 80px;
    }
   }
-  @media all and (max-width: 300px) {
+  @media all and (max-width: 320px) {
     #input {
         width: 200px;
     }
+    #city {
+        font-size: 23px;
+       }
+       #temperature {
+        font-size: 60 px;
+       }
   }
